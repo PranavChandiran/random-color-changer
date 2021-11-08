@@ -1,5 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap"); /* 1font */
-
+@import url("https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap");
+/* 1font */
+@import url("https://fonts.googleapis.com/css2?family=Dongle&display=swap");
+/* 2 font */
 body {
   box-sizing: border-box;
 }
@@ -15,17 +17,38 @@ h1 {
 #copyBtn {
   position: relative;
   display: inline-block;
-  /* font-size: 22px;
+  font-size: 22px;
   cursor: pointer;
-  color: gold;
+  color: rgb(255, 215, 0, 0.5);
   user-select: none;
-  left: 50%;
-  right: 50%;
-  bottom: 5rem; */
+  right: -2rem;
+  bottom: 4.5rem;
 }
 #btn {
-  left: 60%;
-  right: 60%;
+  position: relative;
+
   margin-left: 50%;
   border-right-width: 50%;
+}
+.alert {
+  display: none;
+  position: relative;
+  bottom: 4rem;
+  left: 20px;
+  top: -80px;
+  height: 90px;
+  width: 16rem;
+  /* background: rgb(255, 215, 0, 0.5); */
+  background: rgb(94, 194, 106, 0.8);
+  border-radius: 10px 16px;
+}
+.alertMsg {
+  /* display: none; */
+  font-family: "Dongle", sans-serif;
+  font-size: 2.2rem;
+  position: relative;
+  color: #fff;
+  left: 10px;
+  top: 10px;
+  user-select: none;
 }
