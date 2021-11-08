@@ -22,7 +22,7 @@ h1 {
   cursor: pointer;
   color: rgb(255, 215, 0, 0.5);
   user-select: none;
-  right: -4rem;
+  left: 10%;
   bottom: 4.5rem;
 }
 #btn {
