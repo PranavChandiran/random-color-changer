@@ -1,7 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap"); /* 1font */
 
-:root {
-}
 body {
   box-sizing: border-box;
 }
@@ -16,12 +14,18 @@ h1 {
 
 #copyBtn {
   position: relative;
-  border-radius: 6px;
   display: inline-block;
-  font-size: 22px;
+  /* font-size: 22px;
   cursor: pointer;
-  color: #845ef7;
+  color: gold;
   user-select: none;
-  left: 64%;
-  bottom: 5rem;
+  left: 50%;
+  right: 50%;
+  bottom: 5rem; */
+}
+#btn {
+  left: 60%;
+  right: 60%;
+  margin-left: 50%;
+  border-right-width: 50%;
 }
