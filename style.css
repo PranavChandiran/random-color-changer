@@ -1,3 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap"); /* 1font */
 
+:root {
+}
+body {
+  box-sizing: border-box;
+}
+h1 {
+  text-align: center;
+  position: relative;
+  font-family: "Mochiy Pop One", sans-serif;
+  top: 1rem;
+  font-weight: 700;
+  user-select: none;
+}
 
-
+#copyBtn {
+  position: relative;
+  border-radius: 6px;
+  display: inline-block;
+  font-size: 22px;
+  cursor: pointer;
+  color: #845ef7;
+  user-select: none;
+  left: 64%;
+  bottom: 5rem;
+}
