@@ -58,3 +58,8 @@ h1 {
   top: 10px;
   user-select: none;
 }
+#img {
+  position: relative;
+  top: 15rem;
+  border-color: red;
+
