@@ -30,7 +30,7 @@ h1 {
   margin-left: 45%;
   border-right-width: 50%;
   top: 8rem;
-
+  cursor: pointer;
   border-radius: 10px;
   padding: 7px;
   color: #fff;
@@ -62,4 +62,4 @@ h1 {
   position: relative;
   top: 15rem;
   border-color: red;
-
+}
